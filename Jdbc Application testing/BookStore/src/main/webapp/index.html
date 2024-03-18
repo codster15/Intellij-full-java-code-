@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style: none;
+
+
+        }
+        input{
+            margin-left: 10px;
+        }
+
+        .bigDiv{
+            border: 5px solid #ccc;
+            height: 40vh;
+            width: 400px;
+            background-color: aquamarine;
+            border-radius: 15px;
+            margin: 30px 30px;
+        }
+        h1{
+            margin-left: 15px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+           margin-left: 20px;
+        }
+        button{
+            height: 30px ;
+            width: 100px;
+            margin-left: 70px;
+            margin-top: 10px;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            border: 0px solid;
+            letter-spacing: 2px ;
+
+        }
+
+        button:hover{
+            cursor: pointer;
+        }
+        input{
+            height: 30px;
+            border-radius: 5px ;
+            border: 0px solid;
+            font-size: medium;
+            font-weight: 500;
+            letter-spacing: 2px ;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="bigDiv">
+
+        <h1> WELCOME BOOK STORE</h1>
+
+        <form action="BookDataServlet" method="post">
+            <li>Book ID <input type="text" placeholder="Enter book id" name="id"></li>
+            <li>Book Name <input type="text" placeholder="Enter book name" name="name"></li>
+            <li>Book Price<input type="text" placeholder="Enter book Price " name="price"></li>
+            <button> Submit</button>
+        </form>
+    
+
+
+    </div>
+   
+</body>
+</html>

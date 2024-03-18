@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          margin: 0px;
+          padding: 0px;
+
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        .main{
+
+            height: 100%;
+            width: 100vw;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            z-index: 5;
+        }
+        h1{
+            font-size: 80px;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            color: white;
+        }
+        .logout{
+            width: 90%;
+
+            font-size: 25px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            display: flex;
+           justify-content: end;
+
+
+        }
+        .imgfol{
+            height: 600px;
+            width: 70%;
+
+            background-image: url("images\TeacherDashboard.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+
+
+
+<div class="main">
+    <h1>Faculty dashboard</h1>
+    <div class="logout"><a href="/Teachers_Students/index.html">logout</a></div>
+    <div class="imgfol"></div>
+
+
+</div>
+</body>
+</html>

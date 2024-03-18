@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style: none;
+
+
+
+        }
+        input{
+            margin-left: 10px;
+
+        }
+
+        .bigDiv{
+            border: 5px solid #ccc;
+            height: 60vh;
+            width: 400px;
+            background-color: rgb(255, 227, 104);
+            border-radius: 15px;
+            margin: 30px 30px;
+        }
+        h1{
+            margin-left: 15px;
+            color: crimson;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+           margin-left: 20px;
+        }
+        button{
+            height: 40px ;
+            width: 200px;
+            margin-left: 80px;
+            margin-top: 10px;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            border: 0px solid;
+            letter-spacing: 2px ;
+
+        }
+
+        button:hover{
+            cursor: pointer;
+        }
+        input{
+            height: 30px;
+            border-radius: 5px ;
+            border: 0px solid;
+            font-size: medium;
+            font-weight: 500;
+            letter-spacing: 2px ;
+        }
+
+        span{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .div1{
+
+                width: 30px;
+                margin-left: 50px;
+        }
+        .liGen{
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="bigDiv">
+
+    <h1> Registration Page</h1>
+
+    <form action="Registration" method="post">
+        <li><span>First Name</span> <input type="text" placeholder="Enter First name "  name="firstName"></li>
+        <li><span>Last Name</span> <input type="text" placeholder="Enter Last name " name="lastName"></li>
+        <li><span>Email</span><input type="text" placeholder="Enter Email " name="email"></li>
+        <li><span>Password</span><input type="text" placeholder="Enter Password " name="password"></li>
+
+        <li class="liGen"><span>Gender</span>
+
+            <div class="div1"><input type="radio"  name="gender" class="male" value="male"></div>  male
+            <div class="div1"> <input type="radio"  name="gender" class="male" value="female" checked></div> female
+
+        </li>
+
+
+
+
+        <button>Submit</button>
+
+
+    </form>
+
+
+    <!-- testing below -->
+
+
+</div>
+
+</body>
+</html>

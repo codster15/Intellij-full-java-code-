@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+        li{
+            list-style: none;
+
+
+
+        }
+        input{
+            width: 300px;
+            background-color: #C7C8CC;
+        }
+
+        .bigDiv{
+
+
+            width: 500px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            margin: 30px 30px;
+        }
+        h1{
+            padding-top: 30px;
+            margin-left: 15px;
+            color: white;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+           margin-left: 20px;
+        }
+        button{
+
+
+            width: 200px;
+
+            margin-top: 10px;
+            border-radius: 25px;
+            margin-left: 55px;
+            color: black;
+            border: 0px solid;
+            letter-spacing: 2px ;
+            font-size: larger;
+            transition: background-color 0.3s ease;
+            background-color: whitesmoke;
+
+            font-weight: bolder;
+            font-family: cursive;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            margin-bottom: 50px;
+
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            border: 0px solid;
+
+        }
+
+        /* button:hover{
+            cursor: pointer;
+        } */
+        input{
+            height: 30px;
+            border-radius: 5px ;
+            border: 0px solid;
+            font-size: medium;
+            font-weight: 500;
+            letter-spacing: 2px ;
+        }
+
+        span{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .div1{
+
+
+             width: 20px;
+
+        }
+        .liGen{
+
+            display: flex;
+            gap: 20px;
+        }
+        #selectOtn{
+        height: 30px;
+        width: 300px;
+        border: 0px solid;
+        border-radius: 5px;
+        font-size: 17px;
+        color: black;
+        background-color: #C7C8CC;
+
+       }
+       .email{
+
+       }
+       .password{
+        margin-left: 20px;
+       }
+
+
+       .OriginalDiv{
+                height: 100vh;
+                width: 100vw;
+                background: rgb(7,95,195);
+                background: linear-gradient(153deg, rgba(7,95,195,1) 0%, rgba(189,69,150,1) 88%, rgba(212,65,145,1) 100%);
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .male{
+                width: 20px;
+                height: 20px;
+            }
+            .gen{
+                color: white;
+                font-weight: 400;
+            }
+             .link{
+                font-size: 25px;
+                color: blue;
+                font-weight: bolder;
+            }
+    </style>
+</head>
+<body>
+
+<div class="OriginalDiv">
+
+    <div class="bigDiv">
+
+        <h1> Registration</h1>
+
+        <form action="Submit" method="post">
+            <li> <input type="text" placeholder="Enter First name "  name="name"></li>
+
+
+
+            <li><input type="text" placeholder="Enter Email " name="email" class="email"></li>
+
+
+
+            <li class="liGen">
+
+                <div class="div1"><input type="radio"  name="gender" class="male" value="male" ></div> <span class="gen">Male</span>
+                <div class="div1"> <input type="radio"  name="gender" class="male" value="female" checked ></div> <span class="gen">Female</span>
+
+            </li>
+
+
+
+
+
+            <li>
+                <select name="department" id="selectOtn">
+                    <option value="option">Select Department</option>
+                    <option value="security">security</option>
+                    <option value="finance">finance</option>
+                    <option value="testing">testing</option>
+                    <option value="hr">hr</option>
+                    <option value="developer">developer</option>
+                </select>
+
+            </li>
+
+
+            <li>
+                <select name="experience" id="selectOtn">
+                    <option value="select">select Experience</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                </select>
+
+            </li>
+
+
+            <button>Submit</button>
+
+
+        </form>
+
+
+        <!-- testing below -->
+
+        <a href="/Employee/ShowRecords.jsp" class="link">View Employees</a>
+
+    </div>
+
+
+
+</div>
+
+
+
+</body>
+</html>

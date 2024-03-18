@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Advance java:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/Advance_java_jar2</output-path>
+    <root id="archive" name="Advance java.jar">
+      <element id="module-output" name="Advance java" />
+    </root>
+  </artifact>
+</component>
