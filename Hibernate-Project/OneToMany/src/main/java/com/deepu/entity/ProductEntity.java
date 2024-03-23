@@ -7,6 +7,10 @@ import java.util.Arrays;
 @Table (name = "Tbl_Product")
 public class ProductEntity {
 
+
+
+
+
     @Id
     @Column(name = "Product_ID")
     private Integer ProductId;
@@ -19,6 +23,15 @@ public class ProductEntity {
     byte[] ProductImg;
 
     //-----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
     public Integer ProductId() {
         return ProductId;
     }

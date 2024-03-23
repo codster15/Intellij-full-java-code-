@@ -7,6 +7,13 @@ import java.util.List;
 @Table (name = "Tbl_Category")
 public class CategoryEntity {
 
+
+
+
+
+
+
+
     @Id
     @Column(name = "Category_id")
     Integer categoryID;
@@ -19,6 +26,13 @@ public class CategoryEntity {
        @JoinColumn (name = "Category_id_fk")
 
     List<ProductEntity> lstOfProduct ;
+
+
+
+
+
+
+
 //------------------------------------------------------------------------------------------------------------------
     public Integer categoryID() {
         return categoryID;
