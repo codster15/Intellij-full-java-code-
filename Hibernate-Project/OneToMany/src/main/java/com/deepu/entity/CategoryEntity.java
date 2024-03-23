@@ -10,22 +10,18 @@ public class CategoryEntity {
 
 
 
-
-
-
-
     @Id
     @Column(name = "Category_id")
-    Integer categoryID;
+   private Integer categoryID;
 
     @Column (name = "Category_Name")
-    String CategoryName ;
+    private String CategoryName ;
 
 
     @OneToMany( cascade = CascadeType.ALL)
        @JoinColumn (name = "Category_id_fk")
 
-    List<ProductEntity> lstOfProduct ;
+  private List<ProductEntity> lstOfProduct ;
 
 
 

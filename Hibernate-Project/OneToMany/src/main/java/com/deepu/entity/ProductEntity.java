@@ -8,9 +8,6 @@ import java.util.Arrays;
 public class ProductEntity {
 
 
-
-
-
     @Id
     @Column(name = "Product_ID")
     private Integer ProductId;
@@ -20,7 +17,7 @@ public class ProductEntity {
 
     @Lob
      @Column(name = "Product_Image")
-    byte[] ProductImg;
+   private byte[] ProductImg;
 
     //-----------------------------------------------------------------------------------
 
