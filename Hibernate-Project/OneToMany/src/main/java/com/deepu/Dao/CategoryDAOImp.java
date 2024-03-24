@@ -37,10 +37,22 @@ public class CategoryDAOImp implements CategoryDAO {
 
     }
 
+    //=======================================================================================================================
+
     @Override
     public CategoryEntity FetchEntity(Integer categoryID) {
-        return null;
+
+        EntityManager entityManager = factory.createEntityManager();
+        CategoryEntity categoryEntity = entityManager.find(CategoryEntity.class, categoryID);
+
+        factory.close();
+
+
+        return categoryEntity;
     }
+
+    //===============================================================================================================================
+
 
     @Override
     public void removeCategoryEntity(Integer categoryID) {

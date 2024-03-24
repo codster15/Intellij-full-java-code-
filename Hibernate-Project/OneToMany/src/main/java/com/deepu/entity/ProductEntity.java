@@ -23,12 +23,6 @@ public class ProductEntity {
 
 
 
-
-
-
-
-
-
     public Integer ProductId() {
         return ProductId;
     }
@@ -60,8 +54,7 @@ public class ProductEntity {
     public String toString() {
         return "ProductEntity{" +
                 "ProductId=" + ProductId +
-                ", ProductName='" + ProductName + '\'' +
-                ", ProductImg=" + Arrays.toString(ProductImg) +
+                ", ProductName='" + ProductName +
                 '}';
     }
 
