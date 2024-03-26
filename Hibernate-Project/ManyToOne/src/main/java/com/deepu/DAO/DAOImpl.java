@@ -26,8 +26,6 @@ public class DAOImpl implements DaoInterface{
         }catch(Exception e){
             transaction.rollback();
             System.out.println("Object is Not Persisted In to DataBase");
-        }finally {
-
         }
 
 
@@ -35,7 +33,12 @@ public class DAOImpl implements DaoInterface{
 
     @Override
     public Loan fetchById(Integer loanId) {
-        return null;
+
+        EntityManager entityManager = factory.createEntityManager();
+        Loan loan = entityManager.find(Loan.class, loanId);
+
+        entityManager.close();
+        return loan;
     }
 
     @Override

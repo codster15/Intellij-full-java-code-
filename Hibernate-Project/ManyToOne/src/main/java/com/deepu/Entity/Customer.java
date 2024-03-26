@@ -17,6 +17,7 @@ public class Customer {
     @Column (name = "customer_name")
     private String customerName;
 
+    //------------------------------------------------------------------------------------
     public Integer customerID() {
         return customerID;
     }
