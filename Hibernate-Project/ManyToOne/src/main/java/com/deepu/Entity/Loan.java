@@ -18,7 +18,7 @@ public class Loan {
     private Integer LoanAmount;
 
 
-    @ManyToOne (cascade = CascadeType.ALL , fetch = FetchType.LAZY)
+    @ManyToOne (cascade = CascadeType.PERSIST , fetch = FetchType.LAZY)
     @JoinColumn (name = "Customer_id_fk")
     private Customer customer;
 //----------------------------------------------------------------

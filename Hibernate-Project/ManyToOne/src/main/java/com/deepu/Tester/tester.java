@@ -41,7 +41,14 @@ public class tester {
 //        dao.save(MarriageLoan);
 //        dao.save(PersonalLoan);
 
-        Loan loan = dao.fetchById(103);
-        System.out.println(loan.LoanAmount());
+//        Loan loan = dao.fetchById(103);
+//        System.out.println(loan.LoanAmount());
+//
+        dao.remove(102);
+
+
+
+
+
     }
 }

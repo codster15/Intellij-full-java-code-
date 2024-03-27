@@ -43,6 +43,25 @@ public class DAOImpl implements DaoInterface{
 
     @Override
     public void remove(Integer loanId) {
+        EntityManager entityManager = factory.createEntityManager();
+        EntityTransaction transaction = entityManager.getTransaction();
+        Loan loan = entityManager.find(Loan.class, loanId);
+
+        transaction.begin();
+
+        try{
+            entityManager.remove(loan);
+            transaction.commit();
+            System.out.println("Loan Id removed");
+
+        }catch (Exception e){
+            e.printStackTrace();
+            transaction.rollback();
+            System.out.println("not removed");
+
+        }finally {
+            factory.close();
+        }
 
     }
 }
