@@ -12,9 +12,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class tester {
     public static void main(String[] args) throws IOException {
         CategoryDAO  cDao= new CategoryDAOImp();
+        cDao.testJoinQuery();
 
-
-//        //----------------------------------------------------------------------------------
+//        //-----------------------------------------------------------------------------------
 //
 //        CategoryEntity categoryEntity = new CategoryEntity();
 //        categoryEntity.setCategoryID(11011);
@@ -76,8 +76,8 @@ public class tester {
 //
 //        cDao.saveCategory(categoryEntity);
 
-        CategoryEntity categoryEntity = cDao.FetchEntity(11011);
-        List<ProductEntity> entityList = categoryEntity.lstOfProduct();
+//        CategoryEntity categoryEntity = cDao.FetchEntity(11011);
+//        List<ProductEntity> entityList = categoryEntity.lstOfProduct();
 
 //        ProductEntity productEntity = entityList.get(0);
 //        System.out.println(productEntity);
@@ -86,39 +86,39 @@ public class tester {
 //        File  f1 = new File("H:\\Images_DB\\mobile_image.jpg");
 //        FileOutputStream fis = new FileOutputStream(f1);
 //        fis.write(img);
-
-            AtomicInteger count = new AtomicInteger(1);
-
-
-
-
-        entityList.forEach(productEntity -> {
-            String sb = "H:\\Images_DB\\img" +count+ ".jpg";
-
-            System.out.println( "Product id - " + productEntity.ProductId());
-            System.out.println( "Product name - " + productEntity.ProductName());
-
-            byte[] img = productEntity.ProductImg();
+//
+//            AtomicInteger count = new AtomicInteger(1);
+//
 
 
-            File  f1 = new File(sb);
 
-                    try{
-                        FileOutputStream fis = new FileOutputStream(f1);
-                        fis.write(img);
-                        fis.close();
-                        System.out.println("check image in your computer");
-
-                    }catch (Exception e){
-
-                        System.out.println("Image is not Inserted");
-                    }
-
-            System.out.println("=====================================================================");
-
-                        count.incrementAndGet();
-
-        });
+//        entityList.forEach(productEntity -> {
+//            String sb = "H:\\Images_DB\\img" +count+ ".jpg";
+//
+//            System.out.println( "Product id - " + productEntity.ProductId());
+//            System.out.println( "Product name - " + productEntity.ProductName());
+//
+//            byte[] img = productEntity.ProductImg();
+//
+//
+//            File  f1 = new File(sb);
+//
+//                    try{
+//                        FileOutputStream fis = new FileOutputStream(f1);
+//                        fis.write(img);
+//                        fis.close();
+//                        System.out.println("check image in your computer");
+//
+//                    }catch (Exception e){
+//
+//                        System.out.println("Image is not Inserted");
+//                    }
+//
+//            System.out.println("=====================================================================");
+//
+//                        count.incrementAndGet();
+//
+//        });
 
 
     }

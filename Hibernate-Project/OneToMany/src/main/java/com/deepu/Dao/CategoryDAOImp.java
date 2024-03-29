@@ -2,10 +2,8 @@ package com.deepu.Dao;
 
 import com.deepu.entity.CategoryEntity;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
+import java.util.List;
 
 public class CategoryDAOImp implements CategoryDAO {
 
@@ -56,6 +54,22 @@ public class CategoryDAOImp implements CategoryDAO {
 
     @Override
     public void removeCategoryEntity(Integer categoryID) {
+
+    }
+
+    @Override
+    public void testJoinQuery() {
+        EntityManager entityManager = factory.createEntityManager();
+        String query = "Select c.CategoryName , p.ProductName from CategoryEntity c join c.lstOfProduct p";
+
+        TypedQuery<Object[]> query1 = entityManager.createQuery(query, Object[].class);
+
+        List<Object[]> resultList = query1.getResultList();
+
+                resultList.forEach(obj -> {
+                    System.out.println(obj[0] + "\t" + obj[1]);
+                });
+
 
     }
 }

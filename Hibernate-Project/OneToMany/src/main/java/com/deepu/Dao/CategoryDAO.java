@@ -13,6 +13,7 @@ public interface CategoryDAO {
 
         void removeCategoryEntity (Integer categoryID);
 
+        void testJoinQuery();
 
 
 
