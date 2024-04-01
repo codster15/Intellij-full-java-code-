@@ -2,6 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hibernate-Project/Jpa_level2chache" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Hibernate-Project/OneToOne" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hibernate-Project/jpa_Level2Cache" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Java Practice Session 30March2024/Java Feautres" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Java Practice Session 30March2024/Practice start from begining" vcs="Git" />
   </component>
 </project>
