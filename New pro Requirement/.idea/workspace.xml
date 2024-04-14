@@ -1,16 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b5d5431-e4a7-4eb1-af3d-368ea36172e9" name="Changes" comment="" />
+    <list default="true" id="1b5d5431-e4a7-4eb1-af3d-368ea36172e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/src/main/java/com/deepu/StudentDAO/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/src/main/java/com/deepu/StudentDAOImpl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/src/main/java/com/deepu/entity/CompositeKeyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/src/main/java/com/deepu/entity/StudentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/src/main/java/testing/tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/EmbeddedJPA/src/test/java/com/deepu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/src/main/java/com/deepakIT/StudentDAO/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/src/main/java/com/deepakIT/das/impl/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/src/main/java/com/deepakIT/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/src/main/resources/student.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateApplication1/src/test/java/com/deepakIT/entity/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/src/main/java/com/deepu/client/testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/src/main/java/com/deepu/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/src/main/java/com/deepu/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/src/main/java/com/deepu/impl/ProductDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/HibernateWithJpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.settings/org.eclipse.jpt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/src/main/java/com/ait/client/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/src/main/java/com/ait/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/src/main/java/com/ait/dao/impl/ProductDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/src/main/java/com/ait/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/src/test/java/com/ait/entity/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/target/classes/META-INF/maven/com.ait/JpaHibernateAppln1/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/target/classes/META-INF/maven/com.ait/JpaHibernateAppln1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/target/classes/com/ait/client/Tester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/target/classes/com/ait/dao/ProductDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/target/classes/com/ait/dao/impl/ProductDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/target/classes/com/ait/entity/ProductEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpaHibernateAppln1/target/test-classes/com/ait/entity/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/src/main/java/com/deepu/SqLQuery/SqlQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/src/main/java/com/deepu/empDAO/EmpDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/src/main/java/com/deepu/empDAOImpl/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/src/main/java/com/deepu/entity/EmployeeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/src/main/java/com/deepu/tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/JpqlProject/src/test/java/com/deepu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/src/main/java/com/deepu/Dao/BookDAO_Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/src/main/java/com/deepu/Dao/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/src/main/java/com/deepu/Entity/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/src/main/java/com/deepu/Entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/src/main/java/com/deepu/Testing/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/src/main/java/com/deepu/check" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToMany/src/test/java/com/deepu/Entity/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/src/main/java/com/deepu/DAO/DAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/src/main/java/com/deepu/DAO/DaoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/src/main/java/com/deepu/Entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/src/main/java/com/deepu/Entity/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/src/main/java/com/deepu/Tester/tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/ManyToOne/src/test/java/com/deepu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/MyProject_Hibernate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/MyProject_Hibernate/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/MyProject_Hibernate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/MyProject_Hibernate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/MyProject_Hibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/MyProject_Hibernate/src/main/java/com/bro/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/MyProject_Hibernate/src/main/java/com/bro/hibernate.config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/MyProject_Hibernate/src/test/java/com/bro/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/src/main/java/com/deepu/EmpDAO/EmpDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/src/main/java/com/deepu/Entity/EmpEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/src/main/java/com/deepu/impl/EmpDapImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/src/main/java/testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/NativeQuery/src/test/java/com/deepu/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/src/main/java/com/deepu/Dao/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/src/main/java/com/deepu/Dao/CategoryDAOImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/src/main/java/com/deepu/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/src/main/java/com/deepu/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/src/main/java/com/deepu/testing/temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/src/main/java/com/deepu/testing/tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/OneToMany/src/test/java/com/deepu/entity/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/project_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/project_1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/project_1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/project_1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/project_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/project_1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/project_1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/project_1/project_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/project_1/src/main/java/com/deepak/entity/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hibernate-Project/project_1/src/test/java/com/deepak/entity/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Practice Session 30March2024/Practice start from begining" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Practice Session 30March2024/Practice start from begining" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlets2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servlets2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/libraries/servlet_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2d5hbwKJv6tVDc2GIbhhnuvixxa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,6 +180,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "H:/FULL STACK DEVELOPER/Backend Part/intelli Code upload/New pro Requirement",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"

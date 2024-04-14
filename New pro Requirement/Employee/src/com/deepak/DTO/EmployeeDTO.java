@@ -39,13 +39,6 @@ public class EmployeeDTO {
         return this;
     }
 
-
-
-    private String name;
-    private String Email;
-    private String Gender;
-    private String Department;
-    private int Experience;
     public int Experience() {
         return Experience;
     }
@@ -54,6 +47,15 @@ public class EmployeeDTO {
         Experience = experience;
         return this;
     }
+
+
+
+    private String name;
+    private String Email;
+    private String Gender;
+    private String Department;
+    private int Experience;
+
 
 
 
